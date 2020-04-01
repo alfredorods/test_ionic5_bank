@@ -8,7 +8,19 @@
     z-index: 1000000;
     position: absolute;
     bottom: 0;
-    background: var(--ion-background-color);
+    background: var(--ion-principal-color);
+    --background: var(--ion-principal-color);
+    color: white;
     text-align: center;
     padding: 10px;
+}
+
+
+ion-content.md.hydrated {
+    --background: var(--ion-principal-color);
+}
+
+ion-toolbar.in-toolbar.md.toolbar-title-default.hydrated {
+    --background: var(--ion-principal-color);
+    color: white;
 }

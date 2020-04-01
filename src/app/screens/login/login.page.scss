@@ -21,3 +21,7 @@ ion-button {
     text-align: center;
     padding: 10px;
 }
+
+ion-content.md.hydrated {
+    --background: var(--ion-principal-color);
+}

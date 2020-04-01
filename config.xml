@@ -3,7 +3,7 @@
     <name>MyApp</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework.com" href="http://ionicframework.com/">Ionic Framework Team</author>
-    <content src="index.html" />
+    <content original-src="index.html" src="http://localhost:8100" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -99,9 +99,13 @@
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-ionic-webview" spec="^4.0.0" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
-    <engine name="browser" spec="5.0.4" />
     <plugin name="cordova-plugin-geolocation" spec="^4.0.2">
         <variable name="GEOLOCATION_USAGE_DESCRIPTION" value="Necesitamos a tu locación para encontrar nuestras sucursales más cercanas" />
     </plugin>
     <plugin name="cordova-plugin-advanced-http" spec="^2.4.1" />
+    <preference name="GOOGLE_MAPS_ANDROID_API_KEY" value="AIzaSyBBQLV-yE6JWTRii0w8qJGsCcsgGHz4l9g" />
+    <allow-navigation href="http://localhost:4200" sessionid="862f3e2c" />
+    <allow-navigation href="http://localhost:8100" sessionid="c29208f5" />
+    <engine name="browser" spec="5.0.4" />
+    <engine name="android" spec="7.1.4" />
 </widget>
