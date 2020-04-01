@@ -1,5 +1,7 @@
 {
   "name": "consultec",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

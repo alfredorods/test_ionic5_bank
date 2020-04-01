@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>maps</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <div id="map-container">
+    </div>
+
+    <ion-grid class="ion-buttons-bottom">
+      <ion-row>
+        <ion-col (click)="changeType('sucursal')">
+          <ion-icon name="map"></ion-icon>
+          <ion-label>Sucursales</ion-label>
+        </ion-col>
+        <ion-col (click)="changeType('atms')">
+          <ion-icon name="map"></ion-icon>
+          <ion-label>Atms</ion-label>
+        </ion-col>
+        <ion-col (click)="changeType(type)" [hidden]="!navigating">
+          <ion-icon name="close-outline"></ion-icon>
+          <ion-label>Cancelar</ion-label>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+</ion-content>

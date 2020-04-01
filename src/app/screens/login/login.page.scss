@@ -1,0 +1,23 @@
+#ionic-login{
+    top: 30%;
+}
+
+ion-button {
+    width: 100%;
+}
+
+.ion-input-bank{
+    border: 1px solid #cecece;
+    margin-top: 10px;
+}
+
+.ion-buttons-bottom{
+    width: 100%;
+    z-index: 1000000;
+    position: absolute;
+    bottom: 0;
+    background: white;
+    color: gray;
+    text-align: center;
+    padding: 10px;
+}

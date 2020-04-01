@@ -1,0 +1,36 @@
+<ion-content>
+
+<ion-card id="ionic-login">
+    <ion-card-content>
+      <ion-item lines="none">
+          <ion-label color="primary" position="stacked">Email</ion-label>
+          <ion-input color="primary" class="ion-input-bank"></ion-input>
+      </ion-item>
+      <ion-item lines="none">
+          <ion-label color="primary" position="stacked">Contraseña</ion-label>
+          <ion-input color="primary" class="ion-input-bank" type="password"></ion-input>
+      </ion-item>
+      <ion-grid>
+          <ion-row>
+            <ion-col>
+              <ion-button color="primary">Iniciar sesión</ion-button>
+            </ion-col>
+          </ion-row>
+      </ion-grid>
+
+
+    </ion-card-content>
+
+
+</ion-card>
+
+<ion-grid class="ion-buttons-bottom">
+  <ion-row>
+    <ion-col [routerLink]="['maps']">
+      <ion-icon   name="map"></ion-icon>
+      <ion-label>Ubicaciones</ion-label>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+</ion-content>

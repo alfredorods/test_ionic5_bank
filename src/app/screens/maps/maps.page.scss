@@ -1,0 +1,14 @@
+#map-container{
+    height: 100%;
+}
+
+
+.ion-buttons-bottom {
+    width: 100%;
+    z-index: 1000000;
+    position: absolute;
+    bottom: 0;
+    background: var(--ion-background-color);
+    text-align: center;
+    padding: 10px;
+}
